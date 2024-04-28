@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Roz pal pentru fundal */
+    background-image: url('https://i.etsystatic.com/24064344/r/il/d6b8f1/5741835338/il_fullxfull.5741835338_si5z.jpg'); /* Adaugăm fundițe ca background */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #ff80bf; /* Roz deschis pentru antet */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.artist {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%; /* Rotunjirea marginilor pentru a crea forma circulară */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.artist .image-container {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ff80bf; /* Fundal roz pentru secțiunea care conține imaginea */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.artist img {
+    width: 600px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.artist:hover .image-container {
+    transform: scale(1.1);
+}
+
+.artist h2 {
+    margin-top: 100px;
+    color: #ff80bf;
+}
+/* Stilizare link */
+.artist a {
+    text-decoration: none; /* Eliminare subliniere link */
+    color: inherit; 
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5); /* Roz deschis pentru subsol */
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.site {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ff80bf; /* Roz pentru butoane */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.site:hover {
+    background-color: #ff66a3; /* Roz mai închis la hover */
+}

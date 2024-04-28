@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Roz pal */
+}
+
+header {
+    background-color: #ff80bf; /* Roz deschis pentru antet */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.section-review {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.review {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ff80bf; /* Roz deschis */
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff; /* Alb */
+}
+.review img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.review h2 {
+    margin: 10px 0;
+}
+
+.review h3 {
+    margin: 5px 0;
+}
+
+.review p {
+    margin: 10px 0;
+}
+
+h2 {
+    color: #ff80bf; /* Roz deschis pentru titluri */
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5); /* Roz deschis pentru subsol */
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.site {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ff80bf; /* Roz pentru butoane */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.site:hover {
+    background-color: #ff66a3; /* Roz mai închis la hover */
+}
